@@ -67,6 +67,12 @@ alias eb='ember build -w'
 alias ebold='ember build --output-path="application/public" -w '
 # e build -op='/Users/dlaird/code/server/application/public' -w
 
+alias testp="ember t -s -p 9010 --launch PhantomJS"
+alias testc="ember t -s -p 9011 --launch Chrome"
+alias tests="ember t -s -p 9012 --launch Safari"
+alias testcc="ember t -s -p 9013 --launch Chrome\ Canary"
+alias testf="ember t -s -p 9014 --launch Firefox"
+
 alias a='atom .'
 
 alias bt='broccoli-taco'
