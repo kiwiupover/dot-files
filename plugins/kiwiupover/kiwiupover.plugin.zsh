@@ -72,8 +72,17 @@ alias testc="ember t -s -p 9011 --launch Chrome"
 alias tests="ember t -s -p 9012 --launch Safari"
 alias testcc="ember t -s -p 9013 --launch Chrome\ Canary"
 alias testf="ember t -s -p 9014 --launch Firefox"
+alias testa="ember t -s"
+
+alias nvm10="nvm use 0.10"
+alias nvm12="nvm use 0.12"
+alias nvmio="nvm use iojs"
+
+alias gdev="grunt dev"
 
 alias a='atom .'
+
+alias dnsflush='sudo discoveryutil mdnsflushcache;sudo discoveryutil udnsflushcaches;say flushed'
 
 alias bt='broccoli-taco'
 alias bts='broccoli-taco serve'
